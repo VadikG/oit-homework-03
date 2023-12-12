@@ -48,9 +48,12 @@ body a {
 .header {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
-  padding-left: 156px;
-  padding-right: 156px;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -97,9 +100,8 @@ body a {
 
 .header-adress {
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
+
 .header-adress-list {
   display: flex;
   gap: 40px;
