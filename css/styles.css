@@ -40,7 +40,7 @@ body a {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
