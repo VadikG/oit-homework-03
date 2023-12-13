@@ -26,13 +26,7 @@ p {
 body {
   background-color: #fff;
   font-family: Roboto, sans-serif;
-  font-style: normal;
   color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  width: 1440px;
 }
 
 body a {
@@ -58,7 +52,7 @@ body a {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
 }
 
 .header-nav-list {
@@ -121,7 +115,6 @@ body a {
 /*HERO*/
 
 .hero {
-  display: flex;
   background-color: #2e2f42;
   padding: 188px 0;
   align-items: center;
@@ -135,7 +128,7 @@ body a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  margin-bottom: 48px;
+  margin: 0 auto;
   max-width: 496px;
 }
 
@@ -154,8 +147,9 @@ body a {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin-right: 164px;
-  margin-left: 163px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 48px;
 }
 
 .button:hover {
